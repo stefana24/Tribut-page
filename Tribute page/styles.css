@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+.container{
+    min-height: 100vh;
+    background-color: #eee;
+    font-size: 1.2rem;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+#dost-picture {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+#dost-picture >figcaption{
+    font-family: 'Sofia', cursive;
+}
+#dost-picture >img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#dost-picture >figcaption{
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.info-about-author{
+    padding: 10px 0 10px 0;
+}
+#info >.info-about-author >ul{
+    list-style-type: none;
+}
+#info > .quotes {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    background-color:#ddd;
+}
+#info > .quotes >ul{
+    list-style-type: none;
+}
+
+#info> .quotes >ul >li{
+    font-style: italic;
+    padding: 5px;
+}
+
+.more-info >p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px){
+    .container, footer>p, header>h1, header>h3{
+        font-size: medium;
+    }
+    #dost-picture >img{
+        min-width: 100%;
+        height: auto;
+    }
+
+}
+
+.his-life-and-work >p{
+    padding: 10px 0 10px 0;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
